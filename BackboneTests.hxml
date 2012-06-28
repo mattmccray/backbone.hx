@@ -1,0 +1,5 @@
+-main BackboneTests
+-neko BackboneTests.n
+-lib underscore.hx
+--next
+-cmd "neko BackboneTests.n"

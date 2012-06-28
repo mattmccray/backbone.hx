@@ -1,0 +1,4 @@
+-main UnderscoreTest
+-neko UnderscoreTest.n
+--next
+-cmd "neko UnderscoreTest.n"
