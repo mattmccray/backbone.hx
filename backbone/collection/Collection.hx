@@ -1,5 +1,6 @@
 package backbone.collection;
 
+<<<<<<< HEAD
 import underscore.Underscore;
 import backbone.events.Event;
 import backbone.model.Model;
@@ -7,14 +8,26 @@ import haxe.Json;
 
 
 class Collection<T> extends Event , implements Dynamic<Dynamic> {
+=======
+import backbone.events.Event;
+import backbone.model.Model;
+import haxe.Json;
+class Collection extends Event , implements Dynamic<Dynamic> {
+>>>>>>> cb882b456c303f059cadc355389617cc32a36db9
 	private var length:Int;
 	private var _byId:Dynamic;
 	private var _byCid:Dynamic;
 	public var model:Model;
 	public var comparator:Dynamic;
+<<<<<<< HEAD
 	public var models(default, null):Array<T>;
 	
 	public function new(models:Array<Dynamic>=null,?options=null){
+=======
+	public var models(default, null):Array<Dynamic>;
+	
+	public function new(models:Array<Dynamic>=null,?options=null) {
+>>>>>>> cb882b456c303f059cadc355389617cc32a36db9
 		super();
 		options = options != null? options : cast { };
 		if (Reflect.hasField(options, 'model')) this.model = options.model;
@@ -40,11 +53,16 @@ class Collection<T> extends Event , implements Dynamic<Dynamic> {
 		
 	}
 	
+<<<<<<< HEAD
 	public dynamic function initialize()
+=======
+	public function initialize()
+>>>>>>> cb882b456c303f059cadc355389617cc32a36db9
 	{
 		
 	}
 	
+<<<<<<< HEAD
 	public function push(model:Dynamic, options:Dynamic) {
 		var model = this._prepareModel(model, options);
 		this.add(model, options);
@@ -127,4 +145,8 @@ class Collection<T> extends Event , implements Dynamic<Dynamic> {
 		return resp;
 	}
 	
+=======
+
+	
+>>>>>>> cb882b456c303f059cadc355389617cc32a36db9
 }

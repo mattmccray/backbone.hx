@@ -1,5 +1,9 @@
 *.swf
 *.hxproj
 *.n
+<<<<<<< HEAD
 trash/*
 bin/*
+=======
+trash/*
+>>>>>>> cb882b456c303f059cadc355389617cc32a36db9
