@@ -1,0 +1,9 @@
+<project name="backbone.hx" url="https://github.com/Mparaiso/backbone.hx" license="MIT">
+    <user name="mparaiso"/>
+    <tag v="flash"/>
+    <tag v="js"/>
+    <tag v="mvc"/>
+    <description>Backbone haxe port</description>
+    <version name="0.0.1">alpha release</version>
+</project>
+

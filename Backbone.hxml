@@ -1,0 +1,4 @@
+-cp .
+-lib underscore.hx
+-neko BackboneTests.n
+-main BackboneTests
